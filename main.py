@@ -50,7 +50,7 @@ def send_to_transmission(link_map, config):
     success_map = {}
     for title, url in link_map.items():
         try:
-            # client.add_torrent(url)
+            client.add_torrent(url)
             print(f"file added: {title}")
             success_map[title] = url
         except Exception as e:
