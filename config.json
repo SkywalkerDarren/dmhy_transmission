@@ -1,0 +1,15 @@
+{
+  "transmission": {
+    "protocol": "http",
+    "host": "127.0.0.1",
+    "port": 9091,
+    "path": "/transmission/",
+    "username": "username",
+    "password": "password",
+    "timeout": 60
+  },
+  "proxy": {
+    "http": "socks5h://192.168.1.1:1080",
+    "https": "socks5h://192.168.1.1:1080"
+  }
+}
